@@ -1,16 +1,13 @@
 import axios from 'axios';
 
-// Create axios instance with default config
 const api = axios.create({
-  baseURL: 'https://skillwise-edtech-server.onrender.com',
-  // baseURL: 'http://localhost:8081/api',
-  withCredentials: true, // This is important for cookies
+  baseURL: 'https://skillwise-edtech-server.onrender.com/api',
+  withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
   },
 });
 
-// Add response interceptor to handle errors
 api.interceptors.response.use(
   (response) => {
     console.log('Response received from:', response.config.url);
@@ -23,14 +20,12 @@ api.interceptors.response.use(
       data: error.response?.data,
       message: error.message
     });
-    
-    // Don't redirect on 401 for auth/profile endpoint
+
     if (error.response?.status === 401 && !error.config.url.includes('/auth/profile')) {
-      // Handle unauthorized access
       window.location.href = '/login';
     }
     return Promise.reject(error);
   }
 );
 
-export default api; 
+export default api;
