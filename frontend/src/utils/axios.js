@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance with default config
 const api = axios.create({
-  baseURL: 'https://skillwise-edtech-server.onrender.com',
+  baseURL: 'https://skillwise-edtech-server.onrender.com/api',
   // baseURL: 'http://localhost:8081/api',
   withCredentials: true, // This is important for cookies
   headers: {
