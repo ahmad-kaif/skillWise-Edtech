@@ -10,6 +10,7 @@
     "setup": "npm install && npm install dotenv",
     "postinstall": "echo 'Setup completed! Run npm start to start the server'"
   },
+  
   "dependencies": {
     "express": "^4.21.2",
     "livekit-client": "^2.11.2",
