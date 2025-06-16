@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 // CORS configuration
 app.use(cors({
   // origin: ['http://localhost:5173', 'http://192.168.4.197:5173'], // Correct frontend URLs
-  origin: ['https://skillwise-edtech.onrender.com/api', 'http://192.168.4.197:5173'], // Correct frontend URLs
+  origin: ['https://skillwise-edtech.onrender.com', 'http://localhost:5173'],
   credentials: true, // Allow credentials (cookies)
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
