@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://skillwise-edtech-server.onrender.com/api',
+  baseURL: 'https://skillwise-edtech-server.onrender.com/api', // for production
+  // baseURL: 'http://localhost:8081/api', // for development
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
