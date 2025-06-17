@@ -169,7 +169,7 @@ const livekiturl = 'https://skillwise-edtech-streaming.onrender.com'
 async function getToken(roomName, participantName, isRoomCreator) {
     try {
         console.log('Requesting token for:', participantName, 'in room:', roomName);
-        const response = await fetch(`${livekiturl}/get-token`, {
+        const response = await fetch(`/get-token`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -896,7 +896,7 @@ async function joinRoom() {
     try {
         // Check if the room exists by trying to get metadata
         try {
-            const checkRoomResponse = await fetch(`${livekiturl}/check-room`, {
+            const checkRoomResponse = await fetch(`/check-room`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
