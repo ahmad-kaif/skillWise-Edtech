@@ -27,7 +27,7 @@ import Community from './pages/Community';
 
 function App() {
   useEffect(() => {
-    document.title = 'SkillSphere - Learn • Grow • Excel';
+    document.title = 'SkillWise - Learn • Grow • Excel';
   }, []);
 
   return (

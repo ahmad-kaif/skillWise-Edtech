@@ -51,7 +51,7 @@ const Navbar = () => {
     <nav
       className={`fixed top-0 w-full z-50 transition-all duration-200 ${
         isScrolled
-          ? 'bg-black/95 backdrop-blur-md border-b border-white/10'
+          ? 'bg-gray-900 backdrop-blur-md border-b border-white/10'
           : 'bg-black'
       }`}
     >
@@ -65,7 +65,7 @@ const Navbar = () => {
               </div>
               <div className="hidden sm:flex flex-col items-start">
                 <span className="font-bold text-xl bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-                  SkillSphere
+                  SkillWise
                 </span>
                 <span className="text-xs text-white/50 font-medium tracking-wider">
                   LEARN • GROW • EXCEL

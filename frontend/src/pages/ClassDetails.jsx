@@ -182,6 +182,7 @@ export default function ClassDetails() {
   };
 
   const LIVE_SESSION_URL = "https://skillwise-edtech-streaming.onrender.com";
+  // const LIVE_SESSION_URL = "https://localhost:3001";
 
   if (loading) {
     return (

@@ -9,7 +9,7 @@ const Layout = () => {
   return (
     <div className={`min-h-screen flex flex-col ${isDark ? 'dark' : ''}`}>
       <Navbar />
-      <main className="flex-grow bg-gray-900 text-white pt-16">
+      <main className="flex-grow bg-black text-white pt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <Outlet />
         </div>
