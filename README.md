@@ -32,12 +32,12 @@ A collaborative learning platform where users can teach, learn, and share knowle
 
 ## Tech Stack
 
-- Frontend: React, TypeScript, Tailwind CSS
+- Frontend: React, Tailwind CSS, Context API, Gemini API
 - Backend: Node.js, Express
+- Sentiment Analysis - Pretrained Model - distilbert
 - Database: MongoDB
-- Authentication: JWT
-- Real-time: Socket.io
-- Video: WebRTC/Agora
+- Authentication: JWT stored in httpOnly Cookies
+- Live Streaming: LiveKitCall
 
 ## Setup Instructions
 
