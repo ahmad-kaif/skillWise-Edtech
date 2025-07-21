@@ -7,10 +7,28 @@ A collaborative learning platform where users can teach, learn, and share knowle
 - User registration (Learners & Mentors)
 - Class creation and management
 - Live video sessions
-- Community discussions
+- Community discussions with Sentiment Analysis
 - Rating and review system
 - Admin dashboard
 - Search and filtering
+
+  ## 📸 Screenshots
+
+### 🏠 Homepage(Dashboard)
+![Homepage](./home.jpeg)
+
+### 📊 Classes Dashboard
+![Dashboard](./classes.jpeg)
+### 📊 Discussions Dashboard
+![Dashboard](./discussions.jpeg)
+### 📊 Community Dashboard
+![Dashboard](./community.jpeg)
+### 📊 Profile Dashboard
+![Dashboard](./profile.jpeg)
+
+### 🎥 Live Class View
+![Live Class](./live_stream.jpeg)
+
 
 ## Tech Stack
 
